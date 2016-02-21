@@ -4,7 +4,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8610
-# TARGET_BOARD_PLATFORM_GPU := 
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno302
 
 # Architecture
 TARGET_ARCH := arm
@@ -17,7 +17,7 @@ TARGET_CPU_VARIANT := cortex-a7
 BOARD_KERNEL_CMDLINE := androidboot.bootdevice=msm_sdcc.1 androidboot.hardware=qcom vmalloc=400M androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x0
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00000000 --ramdisk_offset 0x00000000 --dt device/manufacturer/codename/dt.img --tags_offset 0x00000000
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00000000 --ramdisk_offset 0x00000000 --dt device/motorola/condor/dt.img --tags_offset 0x00000000
 BOARD_CUSTOM_BOOTIMG_MK := device/motorola/condor/mkbootimg.mk
 TARGET_PREBUILT_KERNEL := device/motorola/condor/kernel
 
