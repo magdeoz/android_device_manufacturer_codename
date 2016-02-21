@@ -6,7 +6,7 @@ $(call inherit-product, device/motorola/condor/device.mk)
 
 ## Device identifier.
 PRODUCT_NAME := omni_condor
-PRODUCT_DEVICE := cndor
+PRODUCT_DEVICE := condor
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := condor
 PRODUCT_MANUFACTURER := motorola
