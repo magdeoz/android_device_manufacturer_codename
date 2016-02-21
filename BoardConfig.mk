@@ -31,6 +31,10 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x00A00000
 # BOARD_USERDATAIMAGE_PARTITION_SIZE :=
 BOARD_FLASH_BLOCK_SIZE := 0x20000
 
+# Time Zone data
+PRODUCT_COPY_FILES += \
+bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
+
 # TWRP
 # TW_THEME := portrait_hdpi
 DEVICE_RESOLUTION := 540x960
@@ -42,3 +46,4 @@ TW_INCLUDE_NTFS_3G := true
 TW_IGNORE_MAJOR_AXIS_0 := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
