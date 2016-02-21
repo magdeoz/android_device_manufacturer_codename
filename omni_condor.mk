@@ -8,7 +8,7 @@ $(call inherit-product, device/motorola/condor/device.mk)
 PRODUCT_NAME := omni_condor
 PRODUCT_DEVICE := condor
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := condor
+PRODUCT_MODEL := Moto E
 PRODUCT_MANUFACTURER := motorola
 
 # If needed to overide these props
