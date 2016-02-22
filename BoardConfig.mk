@@ -36,7 +36,6 @@ bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 # TWRP
 DEVICE_RESOLUTION := 540x960
-TW_TARGET_USES_QCOM_BSP := true
 TW_EXCLUDE_SUPERSU := true
 TW_DEFAULT_EXTERNAL_STORAGE := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
